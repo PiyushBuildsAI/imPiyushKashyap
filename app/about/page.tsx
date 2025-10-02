@@ -9,7 +9,7 @@ export default function AboutPage() {
       {/* Header */}
       <div>
         <h1 className="text-5xl font-extrabold tracking-tight text-foreground">
-          About me<span className="text-purple-600">.</span>
+          About me
         </h1>
         <div className="mt-4 pl-3 border-l-4 border-purple-600">
           <p className="text-lg text-muted-foreground">

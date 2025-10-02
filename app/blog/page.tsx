@@ -51,7 +51,7 @@ const Blog = async () => {
         {posts.map((post) => (
           <Card
             key={post.slug}
-            className="flex flex-col h-full mx-3 dark:bg-foreground/5 bg-background border-border hover:border-purple-600 transition-colors duration-200"
+            className="flex flex-col h-full mx-3 dark:bg-foreground/5 bg-foreground/10 border-border mt-8 hover:border-purple-600 transition-colors duration-200"
           >
             <Link
               href={`/blog/${encodeURIComponent(post.slug)}`}
@@ -69,14 +69,14 @@ const Blog = async () => {
                   </div>
                 )}
                 <div>
-                  <CardTitle className="line-clamp-2 hover:text-purple-600 transition-colors">
+                  <CardTitle className="hover:text-purple-600 transition-colors">
                     {post.title}
                   </CardTitle>
                 </div>
               </CardHeader>
 
               <CardContent>
-                <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                <div className="flex items-center mt-2  text-sm text-muted-foreground">
                   {post.author?.name && (
                     <>
                       <span>By {post.author.name}</span>
@@ -87,12 +87,12 @@ const Blog = async () => {
               </CardContent>
             </Link>
 
-            <CardFooter className="pt-4">
+            <CardFooter className="">
               <Link
                 href={`/blog/${encodeURIComponent(post.slug)}`}
                 className="w-full"
               >
-                <Button className="w-full" variant="outline">
+                <Button className="w-fit" variant="outline">
                   Read More
                 </Button>
               </Link>

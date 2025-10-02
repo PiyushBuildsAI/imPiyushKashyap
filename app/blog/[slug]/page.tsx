@@ -28,7 +28,7 @@ export default async function BlogPostPage({ params }: Props) {
   }
 
   return (
-    <article className="max-w-3xl mx-auto p-6 pt-10 md:pt-32">
+    <article className="max-w-3xl pb-2 mx-auto p-6 pt-10 md:pt-32">
       <nav className="mb-6">
         <Link
           href="/blog"

@@ -1,138 +1,89 @@
-<h1 align="center">Piyush Kashyap</h1>
+# Piyush Kashyap
 
-<p align="center">
-AI Automation Developer • AI Agents • Workflow Automation • Full Stack Systems
-</p>
+AI SaaS Developer building production-ready applications, internal tools, and AI-powered systems.
 
-<p align="center">
-Building systems that turn attention into conversations, conversations into leads, and leads into customers.
-</p>
+I help founders and startups launch products using modern AI development workflows while keeping architecture, maintainability, and scalability as first-class priorities.
 
 ---
 
-## // About
+## What I Build
 
-I build AI-powered business systems that automate lead qualification, customer engagement, appointment booking, and operational workflows.
+### AI SaaS Platforms
 
-My focus is not building more software.
+Subscription products, dashboards, internal tools, customer portals, and multi-tenant applications built with modern web technologies and AI-assisted development workflows.
 
-My focus is removing manual work.
+### Startup MVPs
 
-```txt
-Instagram
-    ↓
-AI Agent
-    ↓
-Qualification
-    ↓
-WhatsApp
-    ↓
-CRM
-    ↓
-Human Team
-```
+Rapid validation without creating technical debt. Authentication, database architecture, payments, APIs, and deployment designed for production from day one.
+
+### AI Systems
+
+Custom AI agents, workflow automation, knowledge systems, developer tooling, and operational software.
+
+### Platform Engineering
+
+Authentication, authorization, database design, integrations, billing systems, observability, and deployment pipelines.
 
 ---
 
-## // What I Build
-
-### AI Agents
-
-- Lead Qualification Agents
-- Customer Support Agents
-- AI Sales Assistants
-- Internal Business Copilots
-
-### Automation Systems
-
-- Instagram → DM Automation
-- WhatsApp Workflows
-- CRM Synchronization
-- Multi-Step N8N Automations
-- AI-Powered Lead Routing
-
-### SaaS & Internal Tools
-
-- Next.js Applications
-- Client Portals
-- Dashboards
-- Business Operations Software
-
----
-
-## // Featured Projects
-
-### IGThreadly
-
-Instagram automation infrastructure that converts comments into qualified conversations through AI-powered DMs and WhatsApp handoff.
+## Selected Projects
 
 ### SkillDotMD
 
-Documentation → AI Skill Generation → GitHub Publishing
+AI-powered platform that transforms technical documentation into reusable development skills for modern AI coding environments.
 
-Automated platform for generating reusable AI skills from technical documentation.
+### BetterWebStack
 
-### FusionSync AI
+Business-focused software and automation systems designed to improve operations, lead management, and growth workflows.
 
-Custom automation systems for agencies, event companies, service businesses, and local businesses.
+### Multi-Tenant Booking Platform
 
----
-
-## // Technology
-
-```yaml
-Frontend:
-  - Next.js
-  - React
-  - TypeScript
-  - Tailwind CSS
-
-Backend:
-  - Node.js
-  - PostgreSQL
-  - Supabase
-  - Prisma
-
-Automation:
-  - N8N
-  - APIs
-  - Webhooks
-  - Workflow Orchestration
-
-AI:
-  - OpenAI
-  - Claude
-  - Gemini
-  - OpenRouter
-
-Infrastructure:
-  - Docker
-  - Linux
-  - Vercel
-```
+Booking, invoicing, and automation platform with tenant isolation, authentication, payment processing, and workflow automation.
 
 ---
 
-## // Current Focus
+## Technology
 
-- AI Agent Infrastructure
-- Business Process Automation
-- Lead Qualification Systems
-- Multi-Agent Workflows
-- Revenue Automation
+### AI
+
+Claude Code • Cursor • OpenAI • Anthropic • Gemini • LangChain • LangGraph • MCP
+
+### Frontend
+
+Next.js • React • TypeScript • Tailwind CSS • shadcn/ui
+
+### Backend
+
+Node.js • PostgreSQL • Supabase • Prisma • REST APIs
+
+### Infrastructure
+
+Docker • GitHub Actions • Vercel • Linux • CI/CD
 
 ---
 
-## // Philosophy
+## Philosophy
 
-> Build once.
->
-> Automate forever.
+Most software problems are architecture problems.
+
+AI accelerates implementation.
+
+Architecture determines whether the product survives after launch.
 
 ---
 
-## // Contact
+## Current Focus
 
-📧 piyush.kashyap.in@gmail.com
+- AI SaaS Development
+- Startup MVP Engineering
+- Agentic Systems
+- Multi-Tenant Architecture
+- Developer Tooling
+- Production AI Applications
 
-Open to freelance projects, AI automation consulting, and system design work.
+---
+
+## Contact
+
+- GitHub: @PiyushBuildsAI
+- Email: piyush8580kashyap@gmail.com

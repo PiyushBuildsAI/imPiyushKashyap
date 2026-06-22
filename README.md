@@ -1,54 +1,119 @@
-# Piyush Kashyap
+<h1 align="center">Piyush Kashyap</h1>
 
-AI Automation Developer building AI agents, workflow automation systems, and conversion-focused business automations.
+<p align="center">
+AI Automation Developer • AI Agents • Workflow Automation • Full Stack Systems
+</p>
 
-I design and deploy systems that automate lead qualification, customer engagement, appointment booking, and business operations using AI, N8N, and modern web technologies.
+<p align="center">
+Building systems that turn attention into conversations, conversations into leads, and leads into customers.
+</p>
 
 ---
 
-## What I Build
+## // About
+
+I build AI-powered business systems that automate lead qualification, customer engagement, appointment booking, and operational workflows.
+
+My focus is not building more software.
+
+My focus is removing manual work.
+
+```txt
+Instagram
+    ↓
+AI Agent
+    ↓
+Qualification
+    ↓
+WhatsApp
+    ↓
+CRM
+    ↓
+Human Team
+```
+
+---
+
+## // What I Build
 
 ### AI Agents
-- Lead qualification agents
-- Customer support agents
-- Sales assistants
-- Internal business copilots
+
+- Lead Qualification Agents
+- Customer Support Agents
+- AI Sales Assistants
+- Internal Business Copilots
 
 ### Automation Systems
-- Instagram → DM automation
-- WhatsApp workflows
-- CRM synchronization
-- Multi-step N8N automations
-- AI-powered lead routing
 
-### Full Stack Applications
-- Next.js SaaS products
-- Client portals
+- Instagram → DM Automation
+- WhatsApp Workflows
+- CRM Synchronization
+- Multi-Step N8N Automations
+- AI-Powered Lead Routing
+
+### SaaS & Internal Tools
+
+- Next.js Applications
+- Client Portals
 - Dashboards
-- Internal business tools
+- Business Operations Software
 
 ---
 
-## Selected Projects
+## // Featured Projects
 
 ### IGThreadly
-Instagram automation platform that converts comments into qualified conversations through AI-powered DMs and WhatsApp handoff.
+
+Instagram automation infrastructure that converts comments into qualified conversations through AI-powered DMs and WhatsApp handoff.
 
 ### SkillDotMD
-Platform that generates reusable AI skills for Claude Code, Cursor, and other AI coding environments.
+
+Documentation → AI Skill Generation → GitHub Publishing
+
+Automated platform for generating reusable AI skills from technical documentation.
 
 ### FusionSync AI
-Business automation systems focused on lead generation, qualification, workflow automation, and operational efficiency.
+
+Custom automation systems for agencies, event companies, service businesses, and local businesses.
 
 ---
 
-## Technology
+## // Technology
 
-TypeScript · Next.js · React · Node.js · PostgreSQL · Supabase · Prisma · Docker · N8N · OpenAI · Claude · Gemini · Vercel
+```yaml
+Frontend:
+  - Next.js
+  - React
+  - TypeScript
+  - Tailwind CSS
+
+Backend:
+  - Node.js
+  - PostgreSQL
+  - Supabase
+  - Prisma
+
+Automation:
+  - N8N
+  - APIs
+  - Webhooks
+  - Workflow Orchestration
+
+AI:
+  - OpenAI
+  - Claude
+  - Gemini
+  - OpenRouter
+
+Infrastructure:
+  - Docker
+  - Linux
+  - Vercel
+```
 
 ---
 
-## Current Focus
+## // Current Focus
 
 - AI Agent Infrastructure
 - Business Process Automation
@@ -58,8 +123,16 @@ TypeScript · Next.js · React · Node.js · PostgreSQL · Supabase · Prisma ·
 
 ---
 
-## Contact
+## // Philosophy
 
-- LinkedIn
-- Upwork
-- Email: piyush.kashyap.in@gmail.com
+> Build once.
+>
+> Automate forever.
+
+---
+
+## // Contact
+
+📧 piyush.kashyap.in@gmail.com
+
+Open to freelance projects, AI automation consulting, and system design work.

@@ -1,62 +1,65 @@
-# 👋 Hey there, I'm Piyush Kashyap
+# Piyush Kashyap
 
-🚀 A Full Stack Developer (focused on **TypeScript** & **Next.js**)  
-🎓 BCA Graduate | 🎯 Aspiring MCA Student @ Kurukshetra University  
-🧠 Passionate about **AI Automation**, modern **web technologies**, and clean, scalable code.
+AI Automation Developer building AI agents, workflow automation systems, and conversion-focused business automations.
 
----
-
-## 🛠️ Tech Stack
-
-**Languages & Frameworks**
-
-- TypeScript, JavaScript
-- Next.js, React
-- Tailwind CSS, ShadCN UI
-- tRPC, Prisma, Drizzle ORM
-
-**Databases**
-
-- MongoDB, Supabase, PostgreSQL
-
-**Tools & Platforms**
-
-- Vercel, GitHub, Docker
-- n8n, Make.com (AI Automation)
-- Payload CMS, Stripe, Clerk, NextAuth, BetterAuth
-- VS Code, Fedora Linux (KDE Plasma)
+I design and deploy systems that automate lead qualification, customer engagement, appointment booking, and business operations using AI, N8N, and modern web technologies.
 
 ---
 
-## 🧩 Projects I'm Proud Of
+## What I Build
 
-### 🌍 Itinerary Generation CMS
+### AI Agents
+- Lead qualification agents
+- Customer support agents
+- Sales assistants
+- Internal business copilots
 
-Built with Next.js, TypeScript, ShadCN UI, MongoDB, and tRPC  
-Role: Frontend & API Developer
+### Automation Systems
+- Instagram → DM automation
+- WhatsApp workflows
+- CRM synchronization
+- Multi-step N8N automations
+- AI-powered lead routing
 
-> A content management system for generating travel itineraries. Scalable UI, backend logic.
-
-### 💼 Portfolio Revamp for a Client
-
-- Migrated from React to **Next.js**
-- Integrated **Payload CMS** for blogging
-- Automated blog publishing with **n8n** + AI
-- Streamlined content workflow, improved SEO.
-
-## 📚 Currently Learning
-
-- Deepening Docker knowledge
-- Exploring LangChain and AI SDKs
-- Experimenting with serverless architecture and multi-tenant CMS setups
-- Exploring **Fedora Linux** for development and optimization
+### Full Stack Applications
+- Next.js SaaS products
+- Client portals
+- Dashboards
+- Internal business tools
 
 ---
 
-## 📫 Let's Connect
+## Selected Projects
 
-- 🌐 [Portfolio Coming Soon...]
-- 💼 [LinkedIn]
-- 📧 piyush.kashyap.in.@gmail.com
+### IGThreadly
+Instagram automation platform that converts comments into qualified conversations through AI-powered DMs and WhatsApp handoff.
+
+### SkillDotMD
+Platform that generates reusable AI skills for Claude Code, Cursor, and other AI coding environments.
+
+### FusionSync AI
+Business automation systems focused on lead generation, qualification, workflow automation, and operational efficiency.
 
 ---
+
+## Technology
+
+TypeScript · Next.js · React · Node.js · PostgreSQL · Supabase · Prisma · Docker · N8N · OpenAI · Claude · Gemini · Vercel
+
+---
+
+## Current Focus
+
+- AI Agent Infrastructure
+- Business Process Automation
+- Lead Qualification Systems
+- Multi-Agent Workflows
+- Revenue Automation
+
+---
+
+## Contact
+
+- LinkedIn
+- Upwork
+- Email: piyush.kashyap.in@gmail.com

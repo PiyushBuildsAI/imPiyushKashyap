@@ -1,5 +1,5 @@
-# Base on Node 20 for Next.js 15
-FROM node:20-alpine AS base
+# Use official Bun image
+FROM oven/bun:1-alpine AS base
 
 # Install dependencies only when needed
 FROM base AS deps
@@ -8,11 +8,11 @@ WORKDIR /app
 # Install libc6-compat for Alpine Linux
 RUN apk add --no-cache libc6-compat
 
-# Copy package.json and yarn.lock
-COPY package.json yarn.lock ./
+# Copy package.json
+COPY package.json ./
 
-# Install dependencies with Yarn
-RUN yarn install --frozen-lockfile
+# Install dependencies with Bun
+RUN bun install --frozen-lockfile
 
 # Rebuild the source code only when needed
 FROM base AS builder
@@ -24,7 +24,7 @@ COPY . .
 ENV NEXT_TELEMETRY_DISABLED 1
 
 # Build the application
-RUN yarn build
+RUN bun run build
 
 # Production image, copy all the files and run next
 FROM base AS runner
@@ -48,4 +48,6 @@ EXPOSE 3000
 
 ENV PORT 3000
 
-CMD ["node", "server.js"]
+# Next.js standalone output works with Bun's node-compatibility or Node.js
+# The oven/bun image includes the bun runtime which can execute server.js
+CMD ["bun", "server.js"]

@@ -1,11 +1,7 @@
 # Dependencies
 node_modules
-# Bun
-.bun/
-bun.lockb
-bun-debug.log*
-bun-error.log*
-
+.pnp
+.pnp.js
 
 # Testing
 coverage
@@ -16,15 +12,10 @@ coverage
 out/
 
 # Environment files
-.env*.local
-.env.production
+.env*
 
 # Debug
-npm-debug.log*
-# Bun debug
-bun-debug.log*
-bun-error.log*
-
+*.log
 
 # Version control
 .git

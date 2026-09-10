@@ -1,6 +1,5 @@
 @import "tailwindcss";
 @import "tw-animate-css";
-@import "shadcn/tailwind.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -9,22 +8,38 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --color-border: var(--border);
-  --color-muted: var(--muted);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-card: var(--card);
-  --color-card-foreground: var(--card-foreground);
-  --color-primary: var(--primary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-secondary: var(--secondary);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-accent: var(--accent);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-destructive: var(--destructive);
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-signal: var(--signal);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
   --color-ring: var(--ring);
   --color-input: var(--input);
-  --color-popover: var(--popover);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
   --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -32,36 +47,197 @@
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: #fafafa;
-  --foreground: #111827;
-  --card: #ffffff;
-  --card-foreground: #111827;
-  --popover: #ffffff;
-  --popover-foreground: #111827;
-  --primary: #14a800;
-  --primary-foreground: #ffffff;
-  --secondary: #f0fdf4;
-  --secondary-foreground: #166534;
-  --accent: #dcfce7;
-  --accent-foreground: #166534;
-  --muted: #f3f4f6;
-  --muted-foreground: #6b7280;
-  --destructive: #dc2626;
-  --border: #e5e7eb;
-  --input: #e5e7eb;
-  --ring: #14a800;
+  --radius: 0.875rem;
+  --background: oklch(0.985 0.008 92);
+  --foreground: oklch(0.18 0.018 255);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.018 255);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.018 255);
+  --primary: oklch(0.18 0.018 255);
+  --primary-foreground: oklch(0.985 0.008 92);
+  --secondary: oklch(0.955 0.01 92);
+  --secondary-foreground: oklch(0.22 0.018 255);
+  --muted: oklch(0.955 0.01 92);
+  --muted-foreground: oklch(0.49 0.02 255);
+  --accent: oklch(0.94 0.025 135);
+  --accent-foreground: oklch(0.2 0.03 145);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.89 0.012 92);
+  --input: oklch(0.89 0.012 92);
+  --ring: oklch(0.52 0.16 145);
+  --brand: oklch(0.52 0.16 145);
+  --brand-foreground: oklch(0.99 0.008 92);
+  --signal: oklch(0.66 0.15 225);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --sidebar: oklch(0.985 0.008 92);
+  --sidebar-foreground: oklch(0.18 0.018 255);
+  --sidebar-primary: oklch(0.18 0.018 255);
+  --sidebar-primary-foreground: oklch(0.985 0.008 92);
+  --sidebar-accent: oklch(0.955 0.01 92);
+  --sidebar-accent-foreground: oklch(0.22 0.018 255);
+  --sidebar-border: oklch(0.89 0.012 92);
+  --sidebar-ring: oklch(0.52 0.16 145);
+}
+
+.dark {
+  --background: oklch(0.13 0.015 255);
+  --foreground: oklch(0.96 0.01 92);
+  --card: oklch(0.17 0.016 255);
+  --card-foreground: oklch(0.96 0.01 92);
+  --popover: oklch(0.17 0.016 255);
+  --popover-foreground: oklch(0.96 0.01 92);
+  --primary: oklch(0.96 0.01 92);
+  --primary-foreground: oklch(0.15 0.018 255);
+  --secondary: oklch(0.21 0.018 255);
+  --secondary-foreground: oklch(0.96 0.01 92);
+  --muted: oklch(0.21 0.018 255);
+  --muted-foreground: oklch(0.7 0.018 255);
+  --accent: oklch(0.23 0.035 140);
+  --accent-foreground: oklch(0.9 0.16 128);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 11%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.84 0.18 128);
+  --brand: oklch(0.84 0.18 128);
+  --brand-foreground: oklch(0.14 0.022 255);
+  --signal: oklch(0.75 0.14 220);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.17 0.016 255);
+  --sidebar-foreground: oklch(0.96 0.01 92);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.96 0.01 92);
+  --sidebar-accent: oklch(0.21 0.018 255);
+  --sidebar-accent-foreground: oklch(0.96 0.01 92);
+  --sidebar-border: oklch(1 0 0 / 11%);
+  --sidebar-ring: oklch(0.84 0.18 128);
 }
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border outline-ring/50;
   }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+  }
+
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background font-sans text-foreground;
+    min-height: 100vh;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    background-image:
+      radial-gradient(
+        circle at 8% -10%,
+        color-mix(in oklab, var(--brand) 12%, transparent),
+        transparent 32rem
+      ),
+      radial-gradient(
+        circle at 95% 12%,
+        color-mix(in oklab, var(--signal) 8%, transparent),
+        transparent 28rem
+      );
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    color: var(--brand-foreground);
+    background: var(--brand);
   }
 }
 
-html {
-  scroll-behavior: smooth;
+.automation-grid {
+  background-image:
+    linear-gradient(
+      color-mix(in oklab, var(--border) 52%, transparent) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      color-mix(in oklab, var(--border) 52%, transparent) 1px,
+      transparent 1px
+    );
+  background-size: 28px 28px;
+}
+
+.hero-orb {
+  position: absolute;
+  z-index: -1;
+  border-radius: 9999px;
+  filter: blur(10px);
+  pointer-events: none;
+}
+
+.hero-orb-one {
+  top: 7rem;
+  left: -9rem;
+  width: 24rem;
+  height: 24rem;
+  background: color-mix(in oklab, var(--brand) 10%, transparent);
+}
+
+.hero-orb-two {
+  right: -12rem;
+  bottom: 2rem;
+  width: 34rem;
+  height: 34rem;
+  background: color-mix(in oklab, var(--signal) 8%, transparent);
+}
+
+.status-pulse {
+  position: relative;
+  box-shadow: 0 0 0 0 color-mix(in oklab, currentColor 35%, transparent);
+  animation: status-pulse 2.2s ease-out infinite;
+}
+
+.animate-float {
+  animation: gentle-float 5s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: gentle-float 5.8s ease-in-out 0.8s infinite;
+}
+
+@keyframes status-pulse {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in oklab, var(--brand) 45%, transparent);
+  }
+  70% {
+    box-shadow: 0 0 0 7px transparent;
+  }
+  100% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+
+@keyframes gentle-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -8px, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .status-pulse,
+  .animate-float,
+  .animate-float-delayed {
+    animation: none;
+  }
 }

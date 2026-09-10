@@ -1,89 +1,62 @@
-# Piyush Kashyap
+# 👋 Hey there, I'm Piyush Kashyap
 
-AI SaaS Developer building production-ready applications, internal tools, and AI-powered systems.
-
-I help founders and startups launch products using modern AI development workflows while keeping architecture, maintainability, and scalability as first-class priorities.
-
----
-
-## What I Build
-
-### AI SaaS Platforms
-
-Subscription products, dashboards, internal tools, customer portals, and multi-tenant applications built with modern web technologies and AI-assisted development workflows.
-
-### Startup MVPs
-
-Rapid validation without creating technical debt. Authentication, database architecture, payments, APIs, and deployment designed for production from day one.
-
-### AI Systems
-
-Custom AI agents, workflow automation, knowledge systems, developer tooling, and operational software.
-
-### Platform Engineering
-
-Authentication, authorization, database design, integrations, billing systems, observability, and deployment pipelines.
+🚀 A Full Stack Developer (focused on **TypeScript** & **Next.js**)  
+🎓 BCA Graduate | 🎯 Aspiring MCA Student @ Kurukshetra University  
+🧠 Passionate about **AI Automation**, modern **web technologies**, and clean, scalable code.
 
 ---
 
-## Selected Projects
+## 🛠️ Tech Stack
 
-### SkillDotMD
+**Languages & Frameworks**
 
-AI-powered platform that transforms technical documentation into reusable development skills for modern AI coding environments.
+- TypeScript, JavaScript
+- Next.js, React
+- Tailwind CSS, ShadCN UI
+- tRPC, Prisma, Drizzle ORM
 
-### BetterWebStack
+**Databases**
 
-Business-focused software and automation systems designed to improve operations, lead management, and growth workflows.
+- MongoDB, Supabase, PostgreSQL
 
-### Multi-Tenant Booking Platform
+**Tools & Platforms**
 
-Booking, invoicing, and automation platform with tenant isolation, authentication, payment processing, and workflow automation.
-
----
-
-## Technology
-
-### AI
-
-Claude Code • Cursor • OpenAI • Anthropic • Gemini • LangChain • LangGraph • MCP
-
-### Frontend
-
-Next.js • React • TypeScript • Tailwind CSS • shadcn/ui
-
-### Backend
-
-Node.js • PostgreSQL • Supabase • Prisma • REST APIs
-
-### Infrastructure
-
-Docker • GitHub Actions • Vercel • Linux • CI/CD
+- Vercel, GitHub, Docker
+- n8n, Make.com (AI Automation)
+- Payload CMS, Stripe, Clerk, NextAuth, BetterAuth
+- VS Code, Fedora Linux (KDE Plasma)
 
 ---
 
-## Philosophy
+## 🧩 Projects I'm Proud Of
 
-Most software problems are architecture problems.
+### 🌍 Itinerary Generation CMS
 
-AI accelerates implementation.
+Built with Next.js, TypeScript, ShadCN UI, MongoDB, and tRPC  
+Role: Frontend & API Developer
 
-Architecture determines whether the product survives after launch.
+> A content management system for generating travel itineraries. Scalable UI, backend logic.
+
+### 💼 Portfolio Revamp for a Client
+
+- Migrated from React to **Next.js**
+- Integrated **Payload CMS** for blogging
+- Automated blog publishing with **n8n** + AI
+- Streamlined content workflow, improved SEO.
+
+## 📚 Currently Learning
+
+- Deepening Docker knowledge
+- Exploring LangChain and AI SDKs
+- Experimenting with serverless architecture and multi-tenant CMS setups
+- Exploring **Fedora Linux** for development and optimization
 
 ---
 
-## Current Focus
+## 📫 Let's Connect
 
-- AI SaaS Development
-- Startup MVP Engineering
-- Agentic Systems
-- Multi-Tenant Architecture
-- Developer Tooling
-- Production AI Applications
+- 🌐 [Portfolio Coming Soon...]
+- 💼 [LinkedIn]
+- 📧 piyush.kashyap.in.@gmail.com
 
 ---
-
-## Contact
-
-- GitHub: @PiyushBuildsAI
-- Email: piyush8580kashyap@gmail.com

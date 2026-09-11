@@ -15,8 +15,29 @@ export const metadata = {
     "Notes from Piyush Kashyap on building AI products, automation systems, and modern software.",
 };
 
+function isNetworkError(error: unknown) {
+  return (
+    typeof error === "object" &&
+    error !== null &&
+    "isNetworkError" in error &&
+    error.isNetworkError === true
+  );
+}
+
+async function getPosts(): Promise<BlogPost[]> {
+  try {
+    return await client.fetch<BlogPost[]>(allPostsQuery);
+  } catch (error) {
+    if (!isNetworkError(error)) {
+      throw error;
+    }
+
+    return [];
+  }
+}
+
 const Blog = async () => {
-  const posts: BlogPost[] = await client.fetch(allPostsQuery);
+  const posts = await getPosts();
 
   if (!posts || posts.length === 0) {
     return (

@@ -16,93 +16,17 @@ import {
   Mail,
   MapPin,
   MessageCircle,
-  MonitorSmartphone,
+  MessageSquare,
   Phone,
-  Radio,
   Server,
   ShieldCheck,
   Smartphone,
-  Sparkles,
   Workflow,
   Zap,
   type LucideIcon,
 } from "lucide-react";
 import { FaUpwork } from "react-icons/fa6";
-
-const projectCards: Array<{
-  number: string;
-  name: string;
-  category: string;
-  description: string;
-  result: string;
-  status: string;
-  tags: string[];
-  flow: string[];
-  icon: LucideIcon;
-  layout: string;
-  tone: string;
-}> = [
-  {
-    number: "01",
-    name: "RecallSync",
-    category: "Customer reactivation platform",
-    description:
-      "A multi-tenant platform that helps real businesses win back dormant customers through coordinated voice, SMS, and email conversations.",
-    result:
-      "Designed and shipped solo as a live production system, from tenant isolation and agent behavior to cross-channel delivery.",
-    status: "Live with real businesses",
-    tags: ["Multi-tenant", "Voice", "SMS", "Email", "AI agents"],
-    flow: ["Dormant lead", "AI conversation", "Human handoff"],
-    icon: Radio,
-    layout: "lg:col-span-7",
-    tone: "from-lime-300/30 via-brand/10 to-transparent dark:from-lime-300/15",
-  },
-  {
-    number: "02",
-    name: "IGThreadly",
-    category: "Instagram + WhatsApp automation",
-    description:
-      "An AI agent that reads Instagram comments, qualifies intent automatically, and moves high-intent conversations to WhatsApp.",
-    result:
-      "Running today for event and local businesses that need faster, more consistent lead follow-up.",
-    status: "Production automation",
-    tags: ["Instagram", "WhatsApp", "Lead qualification", "Webhooks"],
-    flow: ["New comment", "Intent qualified", "WhatsApp"],
-    icon: Instagram,
-    layout: "lg:col-span-5",
-    tone: "from-fuchsia-300/25 via-pink-300/10 to-transparent dark:from-fuchsia-400/15",
-  },
-  {
-    number: "03",
-    name: "GMBFlow",
-    category: "Google review automation",
-    description:
-      "An open-source review workflow for local businesses, with smart routing that makes positive feedback public and keeps recovery conversations private.",
-    result:
-      "Built around a practical business outcome: stronger Google presence without losing the chance to resolve poor experiences.",
-    status: "Open source + in use",
-    tags: ["Review routing", "Local business", "Automation", "Open source"],
-    flow: ["Customer visit", "Smart routing", "Review growth"],
-    icon: Sparkles,
-    layout: "lg:col-span-5",
-    tone: "from-sky-300/30 via-cyan-300/10 to-transparent dark:from-sky-400/15",
-  },
-  {
-    number: "04",
-    name: "Companion Apps",
-    category: "iOS + Android product delivery",
-    description:
-      "Cross-platform mobile companions for FusionSync products, extending the same workflows from web to iOS and Android through one shared codebase.",
-    result:
-      "One product experience across three platforms, owned by one developer from architecture through release.",
-    status: "Shipped on mobile",
-    tags: ["iOS", "Android", "Shared codebase", "Product systems"],
-    flow: ["Core platform", "Shared product layer", "iOS + Android"],
-    icon: MonitorSmartphone,
-    layout: "lg:col-span-7",
-    tone: "from-violet-300/25 via-indigo-300/10 to-transparent dark:from-violet-400/15",
-  },
-];
+import { projectCards } from "./project-data";
 
 const capabilities: Array<{
   title: string;
@@ -571,11 +495,20 @@ export default function PortfolioHome() {
                 <span className="text-brand">used.</span>
               </h2>
             </div>
-            <p className="max-w-xl text-sm leading-7 text-muted-foreground lg:justify-self-end sm:text-base">
-              These are live systems solving customer reactivation, lead
-              capture, reputation growth, and cross-platform access—not
-              portfolio concepts.
-            </p>
+            <div className="lg:justify-self-end">
+              <p className="max-w-xl text-sm leading-7 text-muted-foreground sm:text-base">
+                These are live systems solving real problems—from customer
+                reactivation and lead capture to AI agents, travel automation,
+                and cross-channel integrations.
+              </p>
+              <Link
+                href="/project"
+                className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-brand transition-colors hover:text-brand/80"
+              >
+                View all projects
+                <ArrowUpRight className="size-4" />
+              </Link>
+            </div>
           </div>
 
           <div className="grid gap-5 lg:grid-cols-12">
